@@ -1,0 +1,75 @@
+
+/* my color palette https://coolors.co/ffffff-e4e5e9-292a7a-004529*/
+
+.primary-color{
+    color: #ffffff;
+}
+.secondary-color{
+    color: #E4E5E9;
+}
+.accent1-color{
+    color: #292a7a;
+}
+.accent2-color{
+    color: #004529;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", serif;}
+
+header{
+    background-color: #e4e5e9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.hero img{
+    width: block;
+    height: 100%;
+    display: auto;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #e4e5e9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+
+}
