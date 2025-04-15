@@ -1,40 +1,80 @@
 
-/* my color palette https://coolors.co/ffffff-e4e5e9-292a7a-004529*/
+:root{
+    --primary-color: #ffffff; /* white */
+    --secondary-color: #c7c7c8; /* light gray */
+    --accent1-color: #292a7a; /* dark blue */
+    --accent2-color: #004529; /* forest green */
+    --heading-font: "Noto sans", sans-serif;
+    --body-font: "PT Sans", sans-serif;
+}
 
-.primary-color{
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: #ffffff;
+  }
+  header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+  }
+  h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+  }
+  .socialmedia a {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--accent1-color);
     color: #ffffff;
 }
-.secondary-color{
-    color: #E4E5E9;
-}
-.accent1-color{
-    color: #292a7a;
-}
-.accent2-color{
-    color: #004529;
-}
-.logo {
-    width: 150px;
-    height: auto;
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(199, 199, 200, 0.8); /* semi-transparent light gray */
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 20px;
 }
 
-h1,h2,h3,h4,h5,h6 {font-family: "Noto Sans", serif;}
-
-header{
-    background-color: #e4e5e9;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 10px;
-    font-size: 20px;
-    
+.hero article img {
+    float:right;
+    width: 125px;
+    margin-left: 12px;
 }
 
-.hero img{
-    width: block;
-    height: 100%;
-    display: auto;
-}
+  
+
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 
 
@@ -42,34 +82,17 @@ header{
 
 
 
-footer {
-    background-color: #e4e5e9;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
 
-.footer-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
 
-.social-links {
-    margin-top: 10px;
-}
 
-.social-links a {
-    color: rgb(0, 0, 0);
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-.social-links a:hover {
-    text-decoration: underline;
-}
 
-.social-links {
 
-}
+  
+
+
+
+
+
+
+
